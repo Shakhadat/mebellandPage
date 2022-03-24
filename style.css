@@ -1,0 +1,149 @@
+body, h1,h2,h3, input{
+    margin: 0;
+}
+.container{
+    margin: 10px auto;
+    width: 50%;
+}
+i{
+    font-size: 20px;
+    color: #347d5f;
+    margin-right: 1.5rem;
+    
+}
+ion-icon{
+    
+    font-size: 20px;
+    color: #347d5f;
+    margin-right: 1.5rem;
+}
+.first{
+    display: flex;
+    justify-content: space-between;
+    align-content: flex-start;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 4rem;
+}
+.box{
+    /* padding: 1rem; */
+    width: 350px;
+    height: 350px;
+    overflow: hidden;
+    border-radius: 10px ;
+    position: relative;
+    /* overflow: hidden; */
+}
+.box h1{
+    color: #464749;
+}
+.box p{
+    color: gray;
+}
+.box input[type="button"]{
+    background-color: #347d5f;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    color: white;
+    text-transform: uppercase;
+    position: absolute;
+    bottom: 0;
+}
+.box img{
+    width: 350px;
+    
+}
+.second h2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #464749;
+    padding-bottom: 2rem;
+}
+.part{
+    padding-right:2rem ;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.part h4{
+    color: #464749;
+}
+.part p{
+    color:gray;
+}
+.bgthird{
+    background-color: #347d5f;
+    border-radius: 10px;
+    color: white;
+    padding: 1rem;
+}
+.box1{
+    width: 150px;
+    height: 150px;
+    border-radius: 10px; 
+    overflow: hidden;  
+    background-color: red;
+}
+.box1 img{
+    width: 150px;
+    height: 150px;
+    object-fit:cover;
+}
+.box2{
+    width: 70%;
+}
+.box2 h4{
+    margin: 0 0 1rem 0;
+}
+.third{
+    color: rgb(63, 62, 62);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+
+}
+.third h1{
+   margin-bottom: 2rem;
+   /* padding-left: 1rem; */
+}
+.best1{
+    border-radius: 10PX;
+    width: 240px;
+    overflow: hidden;
+    box-shadow: 5px 5px 10px #CCC;
+}
+.best1 img{
+    width: 240px;
+    height: 150px;
+    object-fit:cover;
+}
+.best1 h4{
+    padding-left: 1rem;
+}
+.best1 ul{
+    list-style-type: none;
+    line-height: 20px;
+    padding: 1rem;
+}
+.best1 ul li{
+    line-height: 30px;
+    margin: 0;
+    display: flex;
+    justify-content: flex-start;
+
+}
+.best1 ul li span{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-right: 1rem;
+}
+.foot{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+}
+.best1 .foot input[type="button"]{
+    background-color: #347d5f;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    color: white;
+    text-transform: uppercase;
+}
